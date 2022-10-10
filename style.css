@@ -1,0 +1,82 @@
+
+body{
+  font-family: 'Poppins', Times, serif !important;
+  background-color: #D3D3D3;
+  color:black;
+}
+
+#hero{
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  #brand{
+    font-weight: 600;
+  }
+  #hero-container{
+    height: 100%;
+    gap: 50px;
+  }
+  #hero-header,#resume{
+    color: white;
+  }
+  #hero-header{
+    font-weight: 600;
+  }
+  
+  #resume{
+    text-decoration: none;
+    border: 5px solid white;
+    padding: 10px;
+  }
+/* justify paragraphs */
+  .jus{
+    text-align: justify;
+    color: #1B1B1B;
+  }
+
+section{
+  /* border: 1px solid black; */
+  margin: 50px 0;
+}
+
+  /* CONTACTS */
+  
+  #contact-list{
+    list-style: none;
+  }
+
+  #email{
+    background: url('img/email.png') no-repeat left center;
+    padding-left: 75px;
+    margin: 20px 0;
+  }
+  #phone{
+    background: url('img/phone.png') no-repeat left center;
+    padding-left: 75px;
+    margin: 20px 0;
+  }
+
+  #linked-in{
+    background: url('img/linkedin.png') no-repeat left center;
+    padding-left: 75px;
+    margin: 20px 0;
+  }
+
+  #github{
+    background: url('img/github.png') no-repeat left center;
+    padding-left: 75px;
+    margin: 20px 0;
+  }
+
+  #facebook{
+    background: url('img/fb.png') no-repeat left center;
+    padding-left: 75px;
+    margin: 20px 0;
+  }
+
